@@ -25,6 +25,7 @@ Le but est de surmonter les limitations contextuelles des LLM en enrichissant le
    
 ## Structure du projet
 .
+
 ├── app.py                  # Fichier principal (Streamlit app)
 
 ├── htmlTemplates.py        # Templates HTML (interface conversation)
@@ -32,7 +33,6 @@ Le but est de surmonter les limitations contextuelles des LLM en enrichissant le
 ├── /pdfs                   # Répertoire pour stocker les files PDF
 
 ├── /db                    # Base de données ChromaDB
-
 ├── requirements.txt        # Dépendances
 
 ├── README.md               # ce fichier
