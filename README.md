@@ -14,7 +14,7 @@ Le but est de surmonter les limitations contextuelles des LLM en enrichissant le
 - Ollama - Pour exécuter les LLMs localement
 - PDFMiner - Pour extraire du texte à partir des fichiers PDF
 
-  ## Fonctionnement
+## Fonctionnement
   - L'utilisateur importe un fichier PDF
   - Le texte du fichier est extrait et découpé en chunks
   - Ces fragments sont transformés en embeddigns et stockés dans ChromaDB
@@ -24,14 +24,20 @@ Le but est de surmonter les limitations contextuelles des LLM en enrichissant le
       - Le modèle génére une réponse concise, contextualisé et pertinente
    
 ## Structure du projet
+.
 ├── app.py                  # Fichier principal (Streamlit app)
+
 ├── htmlTemplates.py        # Templates HTML (interface conversation)
+
 ├── /pdfs                   # Répertoire pour stocker les files PDF
+
 ├── /db                    # Base de données ChromaDB
+
 ├── requirements.txt        # Dépendances
+
 ├── README.md               # ce fichier
    
-  ## Fonctionnalités
+## Fonctionnalités
   - Import de fichiers PDF
   - Indexation automatique via PDFMiner et embeddings
   - Récupération contextuelle (RAG)
@@ -39,7 +45,7 @@ Le but est de surmonter les limitations contextuelles des LLM en enrichissant le
   - Historique de conversation grace  langchain memory
   - Interface Web simple et intuitive via Streamlit
  
-    ## Perspective
+## Perspective
     - Ajout de la sélection du LLM (multi-languages)
     - Ajout de l'authentification de l'utilisateur
     - Amélioration de l'interface
